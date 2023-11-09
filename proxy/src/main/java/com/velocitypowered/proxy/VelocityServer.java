@@ -561,7 +561,7 @@ public class VelocityServer implements ProxyServer, ForwardingAudience {
    * @param explicitExit whether the user explicitly shut down the proxy
    */
   public void shutdown(boolean explicitExit) {
-    shutdown(explicitExit, Component.translatable("velocity.kick.shutdown"));
+    shutdown(explicitExit, Component.text("Trwa uruchamianie serwera, poczekaj chwilę."));
   }
 
   @Override
